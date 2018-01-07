@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/item_tyle">
+
+    <LinearLayout style="@style/main_info_layout">
+
+        <TextView
+            android:id="@+id/section"
+            tools:text="News"
+            style="@style/section_style" />
+
+        <TextView
+            android:id="@+id/title"
+            tools:text="World weatherwatch: tornado leaves a trail of destruction in Java"
+            style="@style/title_style" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/additional_info_layout">
+
+        <TextView
+            android:id="@+id/date"
+            tools:text="26 Nov, 2017"
+            style="@style/date_style" />
+
+        <TextView
+            android:id="@+id/author"
+            tools:text="Scott Duncan"
+            style="@style/author_style" />
+
+    </LinearLayout>
+</LinearLayout>
