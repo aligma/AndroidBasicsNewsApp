@@ -8,13 +8,13 @@
 
         <TextView
             android:id="@+id/section"
-            tools:text="News"
-            style="@style/section_style" />
+            style="@style/section_style"
+            tools:text="News" />
 
         <TextView
             android:id="@+id/title"
-            tools:text="World weatherwatch: tornado leaves a trail of destruction in Java"
-            style="@style/title_style" />
+            style="@style/title_style"
+            tools:text="World weatherwatch: tornado leaves a trail of destruction in Java" />
 
     </LinearLayout>
 
@@ -22,13 +22,13 @@
 
         <TextView
             android:id="@+id/date"
-            tools:text="26 Nov, 2017"
-            style="@style/date_style" />
+            style="@style/date_style"
+            tools:text="26 Nov, 2017" />
 
         <TextView
             android:id="@+id/author"
-            tools:text="Scott Duncan"
-            style="@style/author_style" />
+            style="@style/author_style"
+            tools:text="Scott Duncan" />
 
     </LinearLayout>
 </LinearLayout>
